@@ -1,0 +1,25 @@
+**BASICS**
+display list is a tree structure(no loop)
+leaf node is the display object (usually Bitmap), contains graphics
+parent node is the display object container (usually Sprite), contains display objects or containers
+display object container extends object
+class is also tree structure
+each display object can have event listeners, each listener has event type and handler function
+only the "new" keyword will create new instances, the variables of the same type are just references
+properties and methods belong to each instance, static properties and methods belong to the class and only has one copy (can be accessed anywhere)
+static methods can only access static properties
+super() is the parent class' constructor method
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**TODO LIST**
+
+single player mode
+
+focus issue after button clicked
+
+bomb
+AI stuff
+maybe try square blocks as steps and red ones can fall (later)
+
+pickup power-ups
